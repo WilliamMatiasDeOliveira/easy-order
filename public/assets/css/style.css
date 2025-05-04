@@ -1,0 +1,95 @@
+:root{
+    --main-black: #0c0b14;
+    --details-black: #211e2e;
+    --cards-black: #302d42;
+    --red-icons: #ff1b2d;
+    --red-icons-secondary: #fa1e4e;
+    --text-white: #beb6d2;
+    --main-font:  "Roboto", sans-serif;
+    --font-title: "Quicksand", sans-serif;
+}
+
+header{
+    background-color: var(--details-black);
+    display: flex;
+    padding: 1rem;
+}
+
+header .box-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+header .box-logo img{
+    max-width: 3rem;
+}
+
+header .box-logo span{
+    color: var(--red-icons);
+    font-family: var(--font-title);
+    font-size: 2rem;
+    margin-left: 0.5rem;
+}
+
+header .navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .navbar ul{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header .navbar ul li{
+
+}
+
+header .navbar ul li a{
+    display: block;
+    padding: 5px 25px;
+    width: 100%;
+    border-radius: 8px;
+    background-color: var(--red-icons-secondary);
+    text-decoration: none;
+    font-family: var(--main-font);
+    font-size: 1.1rem;
+    color: var(--text-white);
+}
+
+header .navbar ul li a:hover{
+    background-color: var(--text-white);
+    color: var(--details-black);
+}
+
+header .user-data{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .user-data .username{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+header .user-data .username i{
+    font-size: 40px;
+    color: var(--red-icons-secondary);
+}
+
+header .user-data .username span{
+    color: var(--text-white);
+}
+
+
+
