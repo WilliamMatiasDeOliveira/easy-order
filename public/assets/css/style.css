@@ -9,6 +9,7 @@
     --font-title: "Quicksand", sans-serif;
 }
 
+/* header padrão */
 header{
     background-color: var(--details-black);
     display: flex;
@@ -83,13 +84,76 @@ header .user-data .username{
 }
 
 header .user-data .username i{
-    font-size: 40px;
+    font-size: 20px;
     color: var(--red-icons-secondary);
 }
 
 header .user-data .username span{
     color: var(--text-white);
 }
+
+/* tela de login */
+.login-container{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    height: 100vh;
+    background-color: var(--main-black);
+}
+
+.login-row{
+    margin-top: 2rem;
+    padding: 2rem;
+    border-radius: 8px;
+    background-color: var(--details-black);
+    color: var(--red-icons-secondary);
+
+}
+
+.login-row .form-logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-row .form-logo img{
+    max-width: 100px;
+}
+
+.login-row .form-logo span{
+    font-size: 2rem;
+    font-family: var(--font-title);
+    font-weight: 700;
+    color: var(--red-icons);
+}
+
+.login-col{
+    margin-top: 1rem;
+}
+
+.login-col div{
+    margin-bottom: 2rem;
+}
+
+.login-col input{
+    width: 100%;
+}
+
+.login-col input[type="submit"]{
+    background-color: var(--red-icons);
+    border: none;
+    color: var(--text-white);
+    font-weight: 700;
+}
+
+.login-col input[type="submit"]:hover{
+    background-color: var(--red-icons-secondary);
+
+}
+
+
+
+
 
 
 

@@ -1,7 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\AuthController;
 
-Route::get('/', function () {
-    return view('Guest.login');
-});
+
+Route::view('/', 'Guest.login');
+
+Route::post('/login-submit', [AuthController::class, "checkUser"])->name("login.submit");

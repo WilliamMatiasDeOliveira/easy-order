@@ -23,7 +23,7 @@
                 </div>
 
                 <form action="#" method="post">
-                    <input type="submit"value="Logout"class="btn btn-danger">
+                    <input type="submit"value="Logout"class="btn btn-outline-danger">
                 </form>
             </div>
 
